@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgba(37, 114, 37, 0.863);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom : 5px;
+    height: 80px;
+}
+
+p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0;
+    color: rgb(241, 241, 86);
+}
+p img{
+    height: 70px;
+    width: 70px;
+    margin : 5px;
+}
