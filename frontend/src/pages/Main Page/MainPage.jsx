@@ -43,7 +43,7 @@ export const MainPage = () => {
         <button onClick={saveToDo}>Add</button>
       </div>
       <div className="list">
-        {toDos.map(Element => (
+        {toDos.map((Element) => (
           <ToDo 
           key={Element._id} 
           text = {Element.toDo} 
@@ -55,7 +55,7 @@ export const MainPage = () => {
         ))}
       </div>
      </div>
-     {showPopup && <Popup setShowPopup={setShowPopup} popupContent = {popupContent} />}
+     {showPopup && <Popup setShowPopup={setShowPopup} popupContent = {popupContent}  setUpdateUI={setUpdateUI} />}
     </main>
   )
 }

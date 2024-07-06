@@ -22,7 +22,7 @@ export const Popup = ({ setShowPopup, popupContent, setUpdateUI }) => {
         <RxCross1 className="cross" onClick={() => setShowPopup(false)} />
         <h1>Update ToDo</h1>
 
-        <div className="popup__input_holder">
+        <div className="popup_input_holder">
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
