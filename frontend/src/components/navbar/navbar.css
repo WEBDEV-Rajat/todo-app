@@ -1,20 +1,22 @@
+*{
+    margin : 0;
+    padding : 0;
+}
 .navbar{
     background-color: rgba(37, 114, 37, 0.863);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom : 5px;
     height: 80px;
 }
-
-p{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin : 0;
-    color: rgb(241, 241, 86);
-}
-p img{
+img{
     height: 70px;
     width: 70px;
-    margin : 5px;
+    float : left;
+    margin-top : 5px;
+}
+h1{
+   float : right;
+   margin : 20px;
+   color: rgb(253, 253, 94);
 }

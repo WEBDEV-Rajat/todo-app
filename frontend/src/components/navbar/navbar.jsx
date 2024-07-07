@@ -6,10 +6,8 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
       <header>
-      <p>
-        <img src={Logo} alt='logo'/>
-      <h1>To Do Ticker</h1>
-      </p>
+      <img src={Logo} alt='logo'/>
+      <h1>ToDo Ticker</h1>
       </header>
     </div>
   )
